@@ -1,0 +1,140 @@
+/* DEFAULT STYLING FOR PAGE */
+* {
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #010105;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.navBar {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  size: 100px;
+  background-color: blue;
+}
+
+.navBar h1 {
+  font-size: 40px;
+  color: white;
+}
+
+body {
+  background-color: cornsilk;
+  height: 100%;
+}
+
+.main-body {
+  min-height: calc(100vh - 60px);
+}
+
+.suggestionBox {
+  width: 30%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.suggestionBox img {
+  width: 150px;
+  height: 150px;
+}
+
+.loadingClass {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.searchBar {
+  height: 28px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.searchBarButton {
+  margin-left: 20px;
+}
+
+.emptyError {
+  margin-left: 10px;
+}
+
+.notFoundClass {
+  width: 200px;
+  margin: 0 auto;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.border {
+  border: 5px solid #dcdcdc;
+}
+
+.userDetails {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.userDetails img {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  padding-left: 27%;
+}
+
+.userDetails ul {
+  margin: 10px;
+}
+
+.userDetails ul li {
+  margin: 2px;
+}
+
+.usernameField {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.usernameField h1 {
+  margin: 20px;
+  color: #970808;
+}
+
+.usernameField .textField {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* clear fix */
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.errorClass {
+  margin: 10px 20px;
+}
+
+.homeNav {
+  margin: 20px;
+  margin-left: 220px;
+}
+
+.errorLink {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.footer {
+  margin-top: 10px;
+  height: 50px;
+  background-color: blue;
+}
